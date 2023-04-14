@@ -1,0 +1,25 @@
+{
+  "name": "@erockdotdev/component-library",
+  "version": "0.0.0",
+  "description": "a library of react ui components",
+  "main": "index.js",
+  "repository": "https://github.com/shnydercom/lerna-typescript-cra-uilib-starter.git",
+  "author": "erockdotdev",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "resolutions": {
+    "babel-loader": "8.1.0"
+  },
+  "scripts": {
+    "story": "lerna run storybook --stream",
+    "libbuild": "lerna run libbuild --stream",
+    "prestart": "yarn libbuild",
+    "start": "lerna run start --stream"
+  }
+}
