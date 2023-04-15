@@ -19,5 +19,16 @@
   },
   "scripts": {
     "test": "node ./__tests__/@erockdotdev/phoenix-builder.test.js"
+  },
+  "bin": {
+    "phoenix-builder": "./lib/phoenix-builder.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "rollup": "^2.15.0"
   }
 }

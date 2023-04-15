@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = phoenix;
-
-function phoenix() {
-  return 'Hello from phoenix';
-}
+import { Button } from "@cddev/phoenix-button";
+import { Text } from "@cddev/phoenix-text";
+export { Button, Text };

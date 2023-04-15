@@ -18,10 +18,14 @@
     "access": "public"
   },
   "scripts": {
+    "build": "phoenix-builder",
     "test": "node ./__tests__/@erockdotdev/phoenix.test.js"
   },
   "dependencies": {
     "@erockdotdev/phoenix-button": "^0.0.0",
     "@erockdotdev/phoenix-text": "^0.0.0"
+  },
+  "devDependencies": {
+    "@erockdotdev/phoenix-builder": "^0.0.0"
   }
 }

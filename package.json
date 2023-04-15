@@ -4,12 +4,15 @@
   "description": "a library of react ui components",
   "main": "index.js",
   "engines": {
-    "node": "^10",
-    "npm": "^6"
+    "node": ">=v10.x",
+    "npm": ">=v6.x"
   },
   "scripts": {
     "build": "lerna run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy": "npm run build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,17 @@
   },
   "homepage": "https://github.com/davixyz/phoenix#readme",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@storybook/addon-essentials": "^7.0.4",
+    "@storybook/addon-interactions": "^7.0.4",
+    "@storybook/addon-links": "^7.0.4",
+    "@storybook/blocks": "^7.0.4",
+    "@storybook/react": "^7.0.4",
+    "@storybook/react-webpack5": "^7.0.4",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "lerna": "^3.22.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.4"
   }
 }
