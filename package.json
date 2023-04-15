@@ -2,13 +2,20 @@
   "name": "@erockdotdev/phoenix",
   "version": "0.0.0",
   "description": "a library of react ui components",
-  "main": "index.js",
+  "main": "dist/phoenix.cjs.js",
+  "module": "dist/phoenix.esm.js",
+  "src": "lib/phoenix.js",
   "engines": {
     "node": ">=v10.x",
     "npm": ">=v6.x"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "scripts": {
     "build": "lerna run build",
+    "publish:lerna": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
