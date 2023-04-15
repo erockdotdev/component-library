@@ -1,5 +1,5 @@
 {
-  "name": "@erockdotdev/phoenix",
+  "name": "@erockdotdev/component-library",
   "version": "0.0.0",
   "description": "a library of react ui components",
   "main": "dist/phoenix.cjs.js",
