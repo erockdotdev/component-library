@@ -1,25 +1,28 @@
 {
-  "name": "@erockdotdev/component-library",
+  "name": "@erockdotdev/phoenix",
   "version": "0.0.0",
   "description": "a library of react ui components",
   "main": "index.js",
-  "repository": "https://github.com/shnydercom/lerna-typescript-cra-uilib-starter.git",
-  "author": "erockdotdev",
-  "license": "MIT",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
-  "resolutions": {
-    "babel-loader": "8.1.0"
+  "engines": {
+    "node": "^10",
+    "npm": "^6"
   },
   "scripts": {
-    "story": "lerna run storybook --stream",
-    "libbuild": "lerna run libbuild --stream",
-    "prestart": "yarn libbuild",
-    "start": "lerna run start --stream"
+    "build": "lerna run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davixyz/phoenix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davixyz/phoenix/issues"
+  },
+  "homepage": "https://github.com/davixyz/phoenix#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
   }
 }
