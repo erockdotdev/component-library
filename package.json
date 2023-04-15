@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davixyz/phoenix.git"
+    "url": "git+https://github.com/erockdotdev/component-library.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davixyz/phoenix/issues"
+    "url": "https://github.com/erockdotdev/component-library.gitissues"
   },
-  "homepage": "https://github.com/davixyz/phoenix#readme",
+  "homepage": "https://github.com/erockdotdev/component-library.git#readme",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.4",
     "@storybook/addon-interactions": "^7.0.4",
@@ -33,6 +33,7 @@
     "@storybook/react": "^7.0.4",
     "@storybook/react-webpack5": "^7.0.4",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "gh-pages": "^5.0.0",
     "lerna": "^3.22.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
